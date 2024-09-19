@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* NAV BAR CSS */
+.nav-div {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.brand {
+    width: 50%;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navbar {
+    width: 50%;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nav-1 {
+    background-color: rgb(66, 66, 203);
+    color: white;
+    border-radius: 0 0 0 20px;
+    width: 100%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.navbar .nav-1 ul li {
+    margin-top: 5px;
+}
+
+.navbar .nav-1 ul li:hover {
+    color: rgb(179, 179, 255);
+    cursor: pointer;
+}
+
+.Search {
+    margin-left: auto;
+    height: 2rem;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: rgb(14, 14, 86);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.nav-2 {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.nav-2 ul {
+    padding: 0;
+}
+
+.nav-2 ul li:hover {
+    color: rgb(175, 0, 0);
+    cursor: pointer;
+}
+
+.navbar>.nav-1>ul>li,
+.navbar>.nav-2>ul>li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Banner CSS */
+.banner {
+    padding: 140px 0 0 0;
+    gap: 20%;
+}
+
+.hero-text {
+    width: 35%;
+    align-self: center;
+}
+
+.hero-text div {
+    flex-direction: column;
+
+}
+
+.hero-text h1 {
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(66, 66, 203);
+    font-size: 2.5rem;
+    /* margin: 130px 0  0 100px; */
+
+}
+
+.wlc {
+    color: rgb(175, 0, 0);
+}
+
+.ctg {
+    font-size: 2em;
+}
+
+.apply-btn {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 20px;
+    width: 40%;
+    background-color: rgb(66, 66, 203);
+    color: white;
+    margin: 18px 0;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.apply-btn:hover {
+    background-color: rgb(133, 9, 9);
+    color: white;
+    width: 50%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.banner-img-div {
+    width: 35%;
+
+}
+
+.banner-img {
+    width: 100%;
+
+}
+
+/* Status CSS */
+
+.status {
+    width: 100%;
+    height: 40vh;
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.status-icons {
+    color: white;
+
+}
+
+.status div div .fa {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+
+}
+
+/* Top Speaker  */
+.top-speker-section {
+    width: 100%;
+    height: 40vh;
+
+    background-color: azure;
+}
+
+.top-speaker-img {
+    margin-top: 5%;
+    width: 50%;
+    border: 10px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.top-speaker-div>div>h4 {
+    font-size: 1.25rem;
+}
+
+/*                                          Guide menu */
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: azure;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: rgb(66, 66, 203);
+    float: left;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(133, 9, 9);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(133, 9, 9);
+}
+
+/* Style the tab content */
+.admission-guide-section {
+    height: 80vh;
+    
+}
+.tabWithContentDiv{
+    width: 56.4%;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.menu-btn {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    width: 70%;
+    background-color: rgb(106, 106, 238);
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    color: white;
+    height: 3em;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.menu-btn:hover {
+    width: 80%;
+    background-color: rgb(238, 106, 106);
+}
+.AGuide-tuto{
+    width: 100%;
+    height: 400px;
+}
+.aConList{
+    list-style-type: none;
+}
+
+time.icon
+{
+  font-size: 0.9em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 6em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+}
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.3em 0;
+  color: #fff;
+  background-color: rgb(66, 66, 203);
+  border-bottom: 1px dashed rgb(66, 66, 203);
+  box-shadow: 0 2px 0 rgb(66, 66, 203);
+}
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: rgb(133, 9, 9);
+}
+time.icon span
+{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  padding-top: 1.5em;
+  color: #2f2f2f;
+}
+.notice{
+    width: 40%;
+}
+/* #Gnotice{
+    height: 90%;
+} */
