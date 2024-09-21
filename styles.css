@@ -192,6 +192,10 @@
 .top-speaker-div>div>h4 {
     font-size: 1.25rem;
 }
+.section-header{
+    font-weight: 800; 
+    color: rgb(66, 66, 203);
+}
 
 /*                                          Guide menu */
 
@@ -271,9 +275,9 @@ time.icon
 {
   font-size: 0.9em; /* change icon size */
   display: block;
-  position: relative;
+  /* position: relative; */
   width: 6em;
-  height: 6em;
+  height: 7em;
   background-color: #fff;
   border-radius: 0.6em;
   box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
@@ -290,7 +294,7 @@ time.icon *
 }
 time.icon strong
 {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   padding: 0.3em 0;
   color: #fff;
@@ -300,20 +304,101 @@ time.icon strong
 }
 time.icon em
 {
-  position: absolute;
-  bottom: 0.3em;
+  margin-bottom: 20px;
   color: rgb(133, 9, 9);
 }
 time.icon span
 {
   font-size: 1.5em;
   letter-spacing: -0.05em;
-  padding-top: 1.5em;
+  padding-top: 0.5em;
   color: #2f2f2f;
 }
 .notice{
     width: 40%;
 }
-/* #Gnotice{
-    height: 90%;
-} */
+
+/* Queries section */
+.queries{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.card-queries {
+    width: 200px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 1s ease, 0.5s ease;
+}
+.card-queries:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 220px;
+}
+.card-queries img{
+    width: 80%;
+    
+}
+.card-queries h3{
+    font-size: 14px;
+}
+.queries-section{
+    margin-bottom: 55px;
+    text-align: center;
+    margin-top: 120px;
+}
+.queries-section h2{
+    
+    margin-bottom: 40px;
+}
+.card-queries::after {
+    content: ' ';
+    width: 0%;
+    height: 0.3em;
+    background-color: rgb(133, 9, 9);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms, width 600ms;
+  }
+  
+  .card-queries:hover::after{    opacity: 1;
+    width: 100%;
+    transform: translate3d(0, 0.2em, 0);
+  }
+/* Drop Down */
+.find-dept{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 150px;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 50px;
+   border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.find-dept select{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+    background-color: #d6e7ef;
+    margin-right: 15px;
+    
+}
+.find-dept select:focus{
+    outline: none;
+}
+.find-dept input{
+    width: 70px;
+    height: 40px;
+}
