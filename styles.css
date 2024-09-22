@@ -402,3 +402,69 @@ time.icon span
     width: 70px;
     height: 40px;
 }
+.find-input{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.find-dept p {
+    color: rgb(66, 66, 203);
+    font-weight: 700;
+}
+footer a , footer li{
+    text-decoration: none;
+    color: rgb(66, 66, 203);
+    list-style-type: square;
+}
+footer li::marker{
+    color: rgb(238, 106, 106);
+}
+
+footer a:hover, footer li:hover{
+    text-decoration: underline; 
+    color: rgb(238, 106, 106);
+}
+
+footer h3{
+    font-weight: 500; 
+    font-size: 28px;
+    color: rgb(66, 66, 203);
+}
+.infoBtn{
+    font-size: 14px;
+    display: block;
+    width: 30%;
+    margin-top:10px ;
+}
+.footerLogo{
+    align-items: center;
+    width: 200px;
+}
+.footerLogoDiv{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.footer hr{
+    width: 100%;
+    
+    border: 2px dashed rgb(133, 9, 9);
+}
+.footer-link ul{
+    
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between; /* Distribute li items evenly */
+    height: 100%; /* Ensure ul takes full height of the container */
+    padding-bottom: 40px;
+}
+.footer{
+    padding-bottom: 40px;
+    background: rgb(18,53,204);
+background: linear-gradient(0deg, rgba(18,53,204,0.2) 0%, rgba(255,0,228,0) 100%);
+}
